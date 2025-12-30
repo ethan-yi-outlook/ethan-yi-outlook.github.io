@@ -2,7 +2,7 @@
 layout: post
 title: "看不见的操控数据=没用？DexCanvas用强化学习'复活'百万轨迹的物理灵魂"
 date: 2025-12-30
-tags: [robotic-hands, reinforcement-learning, physics-simulation, data]
+tags: [AI data robotic-hands reinforcement-learning physics-simulation]
 toc: true
 comments: true
 author: yisheng
