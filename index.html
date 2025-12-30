@@ -1,20 +1,209 @@
 ---
 layout: default
 ---
-<div class="search-container">
-  <input type="text" id="search-input" placeholder="search blog posts..." style="width: 90%;
-    height: 35px;
-    background-color: rgba(227,231,236,.2);
-    line-height: 35px;
-    margin-top: 20px;
-    padding:10px 16px;
-    border: 1px solid #c0c0c0;
-    font-size: 16px;
-    border-radius: 17px;
-    outline: none;
-    box-sizing: border-box;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);">
-  <ul id="results-container"></ul>
+
+<div class="container-resume">
+  <!-- Main Content: Resume -->
+  <div class="main-content">
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="search blog posts..." style="width: 90%;
+        height: 35px;
+        background-color: rgba(227,231,236,.2);
+        line-height: 35px;
+        margin-top: 20px;
+        padding:10px 16px;
+        border: 1px solid #c0c0c0;
+        font-size: 16px;
+        border-radius: 17px;
+        outline: none;
+        box-sizing: border-box;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);">
+      <ul id="results-container"></ul>
+    </div>
+
+    <!-- Personal Resume Content -->
+    <div class="resume-content">
+      <h1>易盛 (Yi Sheng)</h1>
+
+      <h2>个人简介</h2>
+      <p>机器人和算法工程师，专注于机器人控制、模型训练和嵌入式系统开发领域。拥有丰富的工业自动化、打印机固件开发和机器人技术研发经验，致力于开发先进的机器人控制系统，特别是在灵巧机械手和强化学习方面有深入研究。</p>
+
+      <h2>联系信息</h2>
+      <ul>
+        <li><strong>电话</strong>: +86 158-2115-9194</li>
+        <li><strong>邮箱</strong>: ethan.yi.ethan@outlook.com</li>
+        <li><strong>备用邮箱</strong>: yisheng730@163.com</li>
+        <li><strong>GitHub</strong>: github.com/ethan-yi-outlook</li>
+      </ul>
+
+      <h2>教育背景</h2>
+      <ul>
+        <li><strong>硕士学位</strong> - 2007年9月-2010年3月            上海交通大学电子信息与电气工程学院 自动化</li>
+        <li><strong>学士学位</strong> - 2003年9月-2007年7月            西安交通大学航空航天学院自动化控制</li>
+      </ul>
+
+      <h2>专业技能</h2>
+      <ul>
+        <li><strong>机器人技术</strong>: 机器人控制, 运动规划, 机器人仿真, 灵巧机械手控制, ROS/ROS2</li>
+        <li><strong>嵌入式开发</strong>: 固件开发, 驱动开发, 单片机程序开发, ARM/FPGA系统开发</li>
+        <li><strong>机器学习</strong>: 深度学习, 强化学习, 计算机视觉, 模型训练与优化</li>
+        <li><strong>编程语言</strong>: C/C++, Python, MATLAB, Java</li>
+        <li><strong>工具与框架</strong>: PyTorch, TensorFlow, OpenCV, Qt, SQL</li>
+        <li><strong>其他技能</strong>: 激光打印机EP工艺和整体软件设计,安全模块开发</li>
+      </ul>
+      <h2>论文</h2>
+      <ul>
+        <li><strong>A 60-DOF Upper-body Motion Capture System for Dexterous Robot Manipulation</strong>: RCAE 2025</li>
+        <li><strong>Multi-Rigid-Body Approximation of Human Hands with Application to Digital Twin</strong>: ICBSR</li>
+        <li><strong>Development of the Bioinspired Tendon-Driven DexHand 021 with Proprioceptive Compliance Control</strong>: RA-L</li>
+        <li><strong>DEXCANVAS: BRIDGING HUMAN DEMONSTRATIONS AND ROBOT LEARNING FOR DEXTEROUS MANIPULATION</strong>: ICML</li>
+      </ul>
+
+      <h2>工作经历</h2>
+      <ul>
+        <li><strong>机器人和灵巧手开发总工程师</strong> - 浙江灵巧智能科技有限公司上海研发中心 (2024年5月～至今)<br>
+            - 负责021 19自由度灵巧手软硬件设计和模型开发<br>
+            - 负责021S 三指灵巧手软硬件设计和模型开发<br>
+            - 负责021pro 22自由度灵巧手软硬件设计和模型开发<br>
+            - 基于深度强化学习的灵巧手控制算法，实现了复杂的抓取和操作任务<br>
+            - 完成MiniMore and MegaMore两款类人型机器人的软硬件设计开发<br>
+            - 利用强化学习和物理仿真技术，为灵巧机械手操作生成高质量的物理感知数据集</li>
+        <li><strong>激光打印机引擎技术负责人</strong> - 上海汉图科技有限公司 (2020年10月～2024年4月)<br>
+            - 负责激光打印机引擎的固件设计开发和部分上层图像处理<br>
+            - 完成首款小米激光打印机K200的设计和量产<br>
+            - 完成国内首款全国产芯片打印机的开发（基于龙芯芯片）in pilot run<br>
+            - 完成喷墨打印机funai芯片的替换demo<br>
+            - 完成双面纸路的固件时序设计<br>
+            - 完成多款国产CPU和国产操作系统的打印机驱动开发和适配</li>
+
+        <li><strong>Emerging market solution tech lead</strong> - 惠普信息技术研发(上海)有限公司 (2019年2月～2020年10月)<br>
+            - 负责中国市场解决方案的固件team，为整个解决方案提供固件支持</li>
+
+        <li><strong>技术合伙人</strong> - 上海博信机器人科技有限公司 (2017年7月-2019年1月)<br>
+            - 负责搭建上海博信机器人科技有限公司工业机器人的研发和设计团队<br>
+            - 完成机械设计，软件设计，硬件设计，采购的团队组建和沟通协调工作<br>
+            - 申请上海政府科技型企业基金支持以及部分财务税务工作进行管理和协调沟通<br>
+            - 完成两款机器人控制器程序标准化稳定交付,开发语言C/C++(一款基于intel + vxworks，一款基于Arm+FPGA+reworks)<br>
+            - 完成1400-6Kg, 540-6kg,710-6kg, 900-6kg, 1800-20Kg, scara的模具设计和批量化生产工作<br>
+            - 完成两套非标自动化项目的交付,基于QT和sql，使用C/C++(一套医药自动分拣系统，一套自动焊接系统)<br>
+            - 完成负载从100kg到4000kg共18款重载桁架的单边和龙门结构的标准化设计交付<br>
+            - 完成对接德国合作伙伴公司的多款重要产品交付</li>
+
+        <li><strong>固件项目经理和固件video&security技术lead</strong> - 惠普信息技术研发(上海)有限公司 (2014年～2017年)<br>
+            <em>固件项目经理:</em><br>
+            - 负责seagull/swan两款彩色打印机和dorado/marlin两款黑白激光打印机的固件项目管理<br>
+            - 完成与引擎工作组(上海和日本),软件组(印度)，硬件组，测试组和客户组等其他部门的沟通与协调工作<br>
+            - 完成固件组内部IO模块，编码，加密等模块的组内沟通协调<br>
+            - 完成代工厂软件测试流程规范和现场软件测试工作<br>
+            - 完成四款打印机的按时按质完成任务，保证新产品如期上市销售<br>
+            <em>固件video&security技术Lead:</em><br>
+            - 负责打印机固件video 和 security两个模块的重构和改进<br>
+            - 完成新硬件芯片的video和security模块移植和稳定性测试方案搭建工作<br>
+            - 完成video算法的升级改进工作，申请美国发明专利一个<br>
+            - 完成安全模块的升级和改进，针对网络上新的安全漏洞，升级打印机系统，比如heartbleed的修复</li>
+
+        <li><strong>固件开发工程师(EPL)</strong> - 霍尼韦尔综合科技(中国)有限公司 (2011年～2014年)<br>
+            - 负责门禁控制器的系统软件移植和驱动开发<br>
+            - 完成与意大利项目发起人的沟通协调<br>
+            - 完成与印度软件组和测试组项目沟通与协调，保证软件和固件的测试和联调顺利进行<br>
+            - 完成与软件组，硬件组和第三方电磁兼容性认证机构的沟通协调，拿到产品的认证许可<br>
+            - 完成协处理器的单片机程序开发，以及外部读卡器研发, 申请美国发明专利一个<br>
+            - 完成欧洲产品线门禁控制器的底层系统和驱动开发维护<br>
+            - 完成多款RFID产品的研发</li>
+
+        <li><strong>中间件开发工程师</strong> - 中兴通讯股份有限公司上海研发中心 (2010年～2011年)<br>
+            - 负责Android手机浏览器npruntime的插件扩展<br>
+            - 完成JIL,WAC的widget API实现<br>
+            - 完成webkit内核插件的扩展<br>
+            - 完成webkit内核修改，使之符合JIL规范并发布</li>
+      </ul>
+
+      <h2>专利与成果</h2>
+      <ul>
+        <li><strong>上海汉图</strong>: 一种自动输出辅助信息二维码的打印机/一种新型支持发票打印的微信打印小程序</li>
+        <li><strong>博信机器人</strong>: 一种delta机器人在自动取药的控制算法中国软件著作权</li>
+        <li><strong>HP</strong>: PARALLEL PROCESSING OF MONO-PRINTING JOBS 美国发明专利</li>
+        <li><strong>Honeywell</strong>: MOBILE ACCESS CONTROL SYSTEM AND METHOD美国发明专利</li>
+      </ul>
+
+      <h2>个人荣誉</h2>
+      <ul>
+        <li><strong>2016</strong>: HP spot light奖</li>
+        <li><strong>2011～2014</strong>: Honeywell项目bravo奖3次和创新Kaizen奖2次</li>
+        <li><strong>2010</strong>: ZTE中兴通讯优秀学员</li>
+        <li><strong>2009</strong>: 上海交通大学研究生一等奖学金</li>
+        <li><strong>2008</strong>: 中国航天科技CASC专项奖学金</li>
+      </ul>
+
+      <h2>技术博客</h2>
+      <p>维护个人技术博客，分享在机器人、深度学习和强化学习领域的学习心得和技术见解。特别关注灵巧机械手、物理仿真和机器人操作等前沿技术。</p>
+
+      <h2>语言能力</h2>
+      <ul>
+        <li><strong>中文</strong>: 母语</li>
+        <li><strong>英语</strong>: 熟练 (能够进行技术文档阅读和学术交流)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Right Sidebar: Recent Blog Posts -->
+  <div class="sidebar-posts">
+    <h2>Recent Posts</h2>
+    {% if site.posts.size == 0 %}
+      <h3>No post found</h3>
+    {% endif %}
+
+    <div class="posts">
+      {% for post in site.posts limit:10 %}
+      {% unless post.draft %}
+        <article class="post">
+          <h3>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </h3>
+
+          <div class="meta">
+            <span class="date">
+              {{ post.date | date: "%Y-%m-%d" }}
+            </span>
+
+            <ul class="tag">
+              {% for tag in post.tags %}
+              <li>
+                <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+                  {{ tag }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          <div class="entry">
+            {{ post.excerpt | truncate: 120 }}
+          </div>
+
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        </article>
+      {% endunless %}
+      {% endfor %}
+    </div>
+
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <span class="prev">
+          <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="prev">
+            ← Previous
+          </a>
+        </span>
+      {% endif %}
+      {% if paginator.next_page %}
+        <span class="next">
+          <a href="{{ site.baseurl}}{{ paginator.next_page_path }}" class="next">
+            Next →
+          </a>
+        </span>
+      {% endif %}
+    </div>
+  </div>
 </div>
 
 <!--script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script-->
@@ -32,58 +221,3 @@ layout: default
 	exclude: ['Welcome']
   })
 </script>
- 
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% endif %}
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  {% unless post.draft %}
-    <article class="post">
-      <h1>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </h1>
-
-      <div class="meta">
-        <span class="date">
-          {{ post.date | date: "%Y-%m-%d" }}
-        </span>
-
-        <ul class="tag">
-          {% for tag in post.tags %}
-          <li>
-            <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
-              {{ tag }}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-
-      <div class="entry">
-        {{ post.excerpt | truncate: 200 }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endunless %}
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <span class="prev">
-      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="prev">
-        ← 上一页
-      </a>
-    </span>
-  {% endif %}
-  {% if paginator.next_page %}
-    <span class="next">
-      <a href="{{ site.baseurl}}{{ paginator.next_page_path }}" class="next">
-        下一页 →
-      </a>
-    </span>
-  {% endif %}
-</div>
