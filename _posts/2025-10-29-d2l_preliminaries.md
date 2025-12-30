@@ -2,7 +2,7 @@
 layout: post
 title: "《动手学深度学习（第二版）》学习笔记之 2. 预备知识"
 date: 2025-10-29
-tags: [AI, notes]
+tags: [AI learning]
 toc: true
 comments: true
 author: yisheng
