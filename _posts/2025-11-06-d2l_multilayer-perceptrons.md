@@ -2,7 +2,7 @@
 layout: post
 title: "《动手学深度学习（第二版）》学习笔记之 4. 多层感知机"
 date: 2025-11-06
-tags: [AI learning]
+tags: [AI Learning]
 toc: true
 comments: true
 author: yisheng

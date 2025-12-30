@@ -2,7 +2,7 @@
 layout: post
 title: "《动手学深度学习（第二版）》学习笔记之 7. 现代卷积神经网络"
 date: 2025-11-17
-tags: [AI learning]
+tags: [AI Learning]
 toc: true
 comments: true
 author: yisheng
