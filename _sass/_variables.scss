@@ -16,7 +16,7 @@
   --oc-gray-7: #495057;
   --oc-gray-8: #343a40;
   --oc-gray-9: #212529;
-  
+
   --oc-blue-0: #e8f7ff;
   --oc-blue-6: #228ae6;
   --oc-blue-8: #1b6ec2;
@@ -35,7 +35,7 @@ body.dark-mode {
   --oc-gray-7: #e9ecef;
   --oc-gray-8: #f1f3f5;
   --oc-gray-9: #f8f9fa;
-  
+
   --oc-blue-0: #444d56;
   --oc-blue-6: #80acff;
   --oc-blue-8: #81a6ed;
@@ -98,6 +98,8 @@ $tag-index-count-background-color: #868e961a;
 
 $footer-border-color: var(--oc-gray-2);
 $footer-background-color: var(--oc-gray-0);
+
+$divider-color-light: var(--oc-gray-1);
 
 // List
 $li-bottom-space: 0.4em;
