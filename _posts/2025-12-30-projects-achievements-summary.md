@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "技术成果与项目总结：从打印机到灵巧手的技术之路"
-date: 2025-12-31
+date: 2025-12-30
 tags: [projects achievements robotics printer AI]
 toc: true
 comments: true
