@@ -391,7 +391,7 @@ img {
 }
 
 .site-name {
-  margin: 0 auto;
+  margin: 25px auto 0;  // Added top margin to prevent overlap with avatar
   color: $base-color;
   cursor: pointer;
   font-family: $base-font;
