@@ -2,7 +2,7 @@
 layout: post
 title: "开源MuJoCo触觉仿真框架：加速机器人灵巧操作研究"
 date: 2025-12-28
-tags: [AI MuJoCo simulation tactile robotic-hands opensource]
+tags: [AI Data Robotic]
 toc: true
 comments: true
 author: yisheng

@@ -2,7 +2,7 @@
 layout: post
 title: "DexHand021 Pro：高自由度(DOF)≠灵巧度(Dexterity)"
 date: 2025-12-26
-tags: [AI dexhand robotic-hands dexterity DOF metrics]
+tags: [AI Data Robotic]
 toc: true
 comments: true
 author: yisheng

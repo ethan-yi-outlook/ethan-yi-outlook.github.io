@@ -2,7 +2,7 @@
 layout: post
 title: "DexHand 021 SDK开源啦！"
 date: 2025-12-29
-tags: [AI dexhand robotic-hands SDK opensource]
+tags: [AI Data Robotic]
 toc: true
 comments: true
 author: yisheng
