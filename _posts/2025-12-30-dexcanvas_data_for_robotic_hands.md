@@ -8,7 +8,7 @@ comments: true
 author: yisheng
 ---
 
-## 前言
+## 前言 图片阅读有问题？参考微信链接 [dexcanvas](https://mp.weixin.qq.com/s/AEm9BJEuisq0yPeS58dVnw)
 
 国内外各大机器人公司都在发布海量数据集——百万级轨迹、千小时演示，数字一个比一个惊人。
 
