@@ -2,7 +2,7 @@
 layout: post
 title: "关于《动手学深度学习（第二版）》学习笔记系列的目录"
 date: 2025-10-27
-tags: [AI, catalogue]
+tags: [AI learning]
 toc: false
 comments: true
 author: yisheng

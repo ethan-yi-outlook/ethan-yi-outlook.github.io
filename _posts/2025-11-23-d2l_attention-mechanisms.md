@@ -2,7 +2,7 @@
 layout: post
 title: "《动手学深度学习（第二版）》学习笔记之 10. 注意力机制"
 date: 2025-11-23
-tags: [AI, notes]
+tags: [AI learning]
 toc: true
 comments: true
 author: yisheng
