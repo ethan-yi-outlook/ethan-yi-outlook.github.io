@@ -9,7 +9,7 @@ navigation:
     url: /
   - name: 关于
     url: /about
-  - name: 分类
+  - name: 文章
     url: /tags
 
 excerpt_separator: <!-- more -->
