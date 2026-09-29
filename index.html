@@ -26,8 +26,9 @@ layout: default
       <h1>易盛 (Yi Sheng)                      <a href="/tags" style="font-size: 1.0em; vertical-align: middle; color: #868e96;">技术和学习分享</a></h1>
 
       <h2>个人简介</h2>
-      <p>机器人和算法工程师，专注于机器人控制、模型训练和嵌入式系统开发领域。拥有丰富的工业自动化、打印机固件开发和机器人技术研发经验<br>
-         致力于开发先进的机器人控制系统，特别是在灵巧机械手和强化学习方面有深入研究。<br>
+      <p>机器人与灵巧手方向总工程师，专注灵巧手本体设计、具身智能模型训练（VLA / 强化学习）与嵌入式实时系统。<br>
+         主导 DexHand 系列灵巧手与穿戴式数据采集系统的全栈研发，构建「数据采集 → 自动标注 → 模型训练 → 真机部署 → 基准评估」的数据飞轮。<br>
+         此前有十余年消费电子与外企固件研发经验（HP / 霍尼韦尔 / 中兴），并曾作为技术合伙人从零组建工业机器人研发团队。<br>
          工信部 人工智能高级算法工程师 证书编号：425009230307052743</p>
 
       <h2>联系信息</h2>
@@ -46,30 +47,32 @@ layout: default
 
       <h2>专业技能</h2>
       <ul>
-        <li><strong>机器人技术</strong>: 机器人控制, 运动规划, 机器人仿真, 灵巧机械手控制, ROS/ROS2</li>
-        <li><strong>嵌入式开发</strong>: 固件开发, 驱动开发, 单片机程序开发, ARM/FPGA系统开发</li>
-        <li><strong>机器学习</strong>: 深度学习, 强化学习, 计算机视觉, 模型训练与优化</li>
-        <li><strong>编程语言</strong>: C/C++, Python, MATLAB, Java</li>
-        <li><strong>工具与框架</strong>: PyTorch, TensorFlow, OpenCV, Qt, SQL</li>
-        <li><strong>其他技能</strong>: 激光打印机EP工艺和整体软件设计,安全模块开发</li>
+        <li><strong>灵巧手本体</strong>: 腱绳-滑轮 / 推杆传动设计, 自由度分配与手指构型（19 / 22 DoF）, 负载与寿命验证, 触觉阵列集成与力值化, 本体感知柔顺（导纳）控制</li>
+        <li><strong>嵌入式与实时控制</strong>: EtherCAT（自研 IGH 通用主站）/ CAN, FOC 电机驱动（SVPWM / 滑模观测器）, RT-Thread 多 MCU 开发框架, IAP 在线升级, 固件与驱动开发, ARM / FPGA</li>
+        <li><strong>机器人学习</strong>: VLA 微调（Pi0.5）, 强化学习（PPO / 残差策略 / teacher-student）, 模仿学习, 动捕重定向（MANO / Retargeting）, Sim2Real</li>
+        <li><strong>数据引擎</strong>: 外骨骼 / 遥操作 / 第一视角多路数据采集, 自动标注管线（手部 6DoF + 深度 + SLAM + 语义）, 数据集构建与数据增强</li>
+        <li><strong>仿真与训练基建</strong>: MuJoCo / Isaac Gym / Isaac Lab, 触觉与点云仿真, real2sim 资产对齐, 分布式训练（LoRA / FSDP）与训练吞吐优化</li>
+        <li><strong>编程与工具</strong>: C/C++, Python, MATLAB, Java; PyTorch / JAX, ROS / ROS2, OpenCV, Qt, SQL</li>
+        <li><strong>产品化与工程</strong>: SDK / 上位机（录制回放、ROS 集成）, 多产品线协议栈与固件框架统一, NPI 量产导入, 打印机 EP 工艺与安全模块</li>
       </ul>
       <h2>论文</h2>
       <ul>
-        <li><strong>A 60-DOF Upper-body Motion Capture System for Dexterous Robot Manipulation</strong>: RCAE 2025</li>
-        <li><strong>Multi-Rigid-Body Approximation of Human Hands with Application to Digital Twin</strong>: ICBSR</li>
-        <li><strong>Development of the Bioinspired Tendon-Driven DexHand 021 with Proprioceptive Compliance Control</strong>: RA-L</li>
-        <li><strong>DEXCANVAS: BRIDGING HUMAN DEMONSTRATIONS AND ROBOT LEARNING FOR DEXTEROUS MANIPULATION</strong>: ICML</li>
+        <li><strong>Development of the Bioinspired Tendon-Driven DexHand 021 with Proprioceptive Compliance Control</strong> — IEEE Robotics and Automation Letters (RA-L), 已录用（稿号 25-3098），ICRA 2026 展示</li>
+        <li><strong>IntuitCap: A 60-DOF Upper-body Motion Capture System for Dexterous Robot Manipulation</strong> — RCAE 2025（IEEE 机器人、控制与自动化工程国际会议），已录用</li>
+        <li><strong>Multi-Rigid-Body Approximation of Human Hands with Application to Digital Twin</strong> — ICBSR 2025</li>
+        <li><strong>DexCanvas: Bridging Human Demonstrations and Robot Learning for Dexterous Manipulation</strong> — arXiv:2510.15786，审稿中（拟投 ICML）</li>
+        <li><strong>Multi-Goal Dexterous Hand Manipulation using Probabilistic Model-based Reinforcement Learning</strong> — 与中科院深圳先进技术研究院合作发表</li>
       </ul>
 
       <h2>工作经历</h2>
       <ul>
         <li><strong>机器人和灵巧手开发总工程师</strong> - 浙江灵巧智能科技有限公司上海研发中心 (2024年5月～至今)<br>
-            - 负责021 19自由度灵巧手软硬件设计和模型开发<br>
-            - 负责021S 三指灵巧手软硬件设计和模型开发<br>
-            - 负责021pro 22自由度灵巧手软硬件设计和模型开发<br>
-            - 基于深度强化学习的灵巧手控制算法，实现了复杂的抓取和操作任务<br>
-            - 完成MiniMore and MegaMore两款类人型机器人的软硬件设计开发<br>
-            - 利用强化学习和物理仿真技术，为灵巧机械手操作生成高质量的物理感知数据集</li>
+            - 主导 DexHand 021 / 021S / 021Pro 三条灵巧手产品线软硬件全栈研发：021 五指 19 DoF（12 主动 + 7 被动，1 kg）实现量产并开源 SDK；021S 三指完成量产转移；021Pro 22 DoF 新一代推进至 PVT<br>
+            - 建立多路数据采集引擎：穿戴式外骨骼数采系统（双臂各 9 + 双手各 20 + 腰 5 DoF，&gt;1000 Hz）、手持数采夹爪与第一视角采集，累计 3.3 万条轨迹 / 96.6 小时，日产约 850 条<br>
+            - 自研第一视角自动标注管线：将视频全自动转为 MANO 手部 6DoF、深度与相机位姿真值，吞吐可线性堆卡，单小时标注成本降低约一个数量级<br>
+            - 搭建自研训练基建与模型训练主线：Pi0.5 VLA 微调、世界模型微调与残差强化学习（real-to-sim-to-real），训练吞吐提升 16% → 20%，产出 DexCanvas 数据集<br>
+            - 完成 MiniMore / MegaMore 两款类人型机器人软硬件设计开发；参与灵巧手、人形机器人部组件、具身智能数据集三项行业标准制定<br>
+            - 产出论文 4 篇（RA-L / RCAE / ICBSR / ICML 在审）、专利与软件著作权 18 项</li>
         <li><strong>激光打印机引擎技术负责人</strong> - 上海汉图科技有限公司 (2020年10月～2024年4月)<br>
             - 负责激光打印机引擎的固件设计开发和部分上层图像处理<br>
             - 完成首款小米激光打印机K200的设计和量产<br>
@@ -122,12 +125,13 @@ layout: default
 
       <h2>论文与专利</h2>
       <ul>
-        <li><strong>RCAE</strong>: A 60-DOF Upper-body Motion Capture System for Dexterous Robot Manipulation</li>
-        <li><strong>ICBSR</strong>: Multi-Rigid-Body Approximation of Human Hands with Application to Digital Twin</li>
-        <li><strong>IEEE RA-L</strong>: Development of the Bioinspired Tendon-Driven DexHand 021 with Proprioceptive Compliance Control</li>
-        <li><strong>ICML</strong>: DEXCANVAS: BRIDGING HUMAN DEMONSTRATIONS AND ROBOT LEARNING FOR DEXTEROUS MANIPULATION</li>
+        <li><strong>IEEE RA-L</strong>: Development of the Bioinspired Tendon-Driven DexHand 021 with Proprioceptive Compliance Control（已录用，ICRA 2026 展示）</li>
+        <li><strong>RCAE 2025</strong>: IntuitCap: A 60-DOF Upper-body Motion Capture System for Dexterous Robot Manipulation（已录用）</li>
+        <li><strong>ICBSR 2025</strong>: Multi-Rigid-Body Approximation of Human Hands with Application to Digital Twin</li>
+        <li><strong>ICML（审稿中）</strong>: DexCanvas: Bridging Human Demonstrations and Robot Learning for Dexterous Manipulation（arXiv:2510.15786）</li>
         <li><strong>CN 50-1136/TN</strong>: 高自由度灵巧手运动控制模型优化分析</li>
       </ul>
+      <p style="font-size:0.92em;color:#868e96;">另有灵巧手与机器人相关专利、软件著作权 18 项：绳驱动五指灵巧手本体感知柔顺控制、RRT 机械臂路径规划、遥操作数采系统、MuJoCo 灵巧手仿真系统、多电机联动耦合控制、外骨骼多通信链路自适应、33 种标准抓取手势两阶段强化学习训练等。</p>
       <ul>
         <li><strong>上海汉图</strong>: 一种自动输出辅助信息二维码的打印机/一种新型支持发票打印的微信打印小程序</li>
         <li><strong>博信机器人</strong>: 一种delta机器人在自动取药的控制算法中国软件著作权</li>
