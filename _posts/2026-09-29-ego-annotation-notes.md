@@ -2,7 +2,7 @@
 layout: post
 title: "第一视角视频标注工程笔记：把人类操作变成机器人可学的监督信号"
 date: 2026-09-29
-tags: [Embodied Robotics]
+tags: [AI algorithm]
 toc: true
 comments: true
 author: yisheng
