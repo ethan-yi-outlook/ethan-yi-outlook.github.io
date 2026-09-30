@@ -2,7 +2,7 @@
 layout: post
 title: "DexGEM 软件栈笔记：数据、训练、部署与评估的完整闭环"
 date: 2026-09-29
-tags: [Embodied AI, VLA, Robot Learning, MLOps]
+tags: [Embodied Robotics]
 toc: true
 comments: true
 author: yisheng

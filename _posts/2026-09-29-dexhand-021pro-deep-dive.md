@@ -2,7 +2,7 @@
 layout: post
 title: "DexHand021Pro 深度工程笔记：一只 22 自由度灵巧手的完整解剖"
 date: 2026-09-29
-tags: [Robotics, Hardware, Dexterous Hand, Firmware, SDK, Manufacturing]
+tags: [Embodied Robotics]
 toc: true
 comments: true
 author: yisheng

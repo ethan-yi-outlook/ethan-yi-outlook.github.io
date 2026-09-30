@@ -2,7 +2,7 @@
 layout: post
 title: "高自由度=灵巧度？行业首个通用可量化灵巧度评价指标发布"
 date: 2025-12-30
-tags: [AI Data Robotic]
+tags: [AI algorithm]
 toc: true
 comments: true
 author: yisheng

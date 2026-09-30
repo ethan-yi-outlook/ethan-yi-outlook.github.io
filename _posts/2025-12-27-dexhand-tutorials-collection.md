@@ -2,7 +2,7 @@
 layout: post
 title: "干货汇总：DexHand021 灵巧智能教程链接大盘点"
 date: 2025-12-27
-tags: [AI Data Robotic]
+tags: [Embodied Robotics]
 toc: true
 comments: true
 author: yisheng

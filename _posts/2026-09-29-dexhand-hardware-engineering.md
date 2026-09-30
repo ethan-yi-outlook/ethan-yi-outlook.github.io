@@ -2,7 +2,7 @@
 layout: post
 title: "灵巧手硬件工程笔记：从腱绳传动到量产良率"
 date: 2026-09-29
-tags: [Robotics, Hardware, Dexterous Hand, Manufacturing]
+tags: [Embodied Robotics]
 toc: true
 comments: true
 author: yisheng

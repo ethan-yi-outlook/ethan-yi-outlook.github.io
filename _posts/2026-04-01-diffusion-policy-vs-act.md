@@ -2,7 +2,7 @@
 layout: post
 title: "Diffusion Policy vs ACT：机器人学习算法对比分析"
 date: 2026-04-01
-tags: [AI Robotic Machine-Learning]
+tags: [AI algorithm]
 toc: true
 comments: true
 author: yisheng

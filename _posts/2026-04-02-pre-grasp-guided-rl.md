@@ -2,7 +2,7 @@
 layout: post
 title: "Pre-Grasp引导的强化学习：灵巧机器人操作新方法"
 date: 2026-04-02
-tags: [AI Robotic Reinforcement-Learning]
+tags: [AI algorithm]
 toc: true
 comments: true
 author: yisheng
